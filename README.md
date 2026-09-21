@@ -4,6 +4,13 @@ Give design work to 0xdesigner from the conversation where you're already buildi
 
 This repository contains the **0xdesigner-owned plugin**, distributed directly. It is not an OpenAI- or Anthropic-endorsed marketplace listing.
 
+## Fastest way to connect
+
+- **Claude:** add `https://0xdesigner.com/mcp` as a custom connector at https://claude.ai/customize/connectors, sign in with your email, and it is available in Claude Code (desktop app and terminal) and claude.ai. No plugin needed.
+- **Codex:** run `codex mcp add 0xdesigner --url https://0xdesigner.com/mcp` once in a terminal, sign in in the browser tab that opens, then start Codex. The app and the CLI share this setting.
+
+Then say **“Use 0xdesigner and check that it is ready.”** The plugin below is the alternative for people who prefer it.
+
 ## Claude Code (terminal)
 
 Not in Claude Code yet? Two commands, then start Claude Code:
@@ -42,7 +49,7 @@ Add the marketplace, then install from the Plugins tab:
 codex plugin marketplace add https://github.com/0xdesign/0xdesigner-mcp
 ```
 
-Open **Plugins**, pick the **0xdesigner** marketplace in the source filter (it may sit under Personal), open 0xdesigner and press **Install**. Sign in through your browser when prompted, then return to the same conversation. Codex may ask once or twice to run outside the sandbox; that is normal. If no sign-in was prompted, choose **Authenticate** under Settings → MCP servers.
+Open [Install 0xdesigner](codex://plugins/install/0xdesigner?marketplace=0xdesigner) after adding the marketplace, then press **Install**. Sign in through your browser when prompted, then return to the same conversation. Codex may ask once or twice to run outside the sandbox; that is normal. If no sign-in was prompted, choose **Authenticate** under Settings → MCP servers.
 
 ## Codex CLI
 
