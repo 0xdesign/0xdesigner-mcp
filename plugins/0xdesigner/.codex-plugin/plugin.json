@@ -1,0 +1,19 @@
+{
+  "name": "0xdesigner",
+  "version": "1.0.0",
+  "description": "Give design work to 0xdesigner from your existing conversation.",
+  "author": {
+    "name": "0xdesigner",
+    "url": "https://0xdesigner.com"
+  },
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "0xdesigner",
+    "shortDescription": "Give this to 0xdesigner.",
+    "developerName": "0xdesigner",
+    "category": "Productivity",
+    "defaultPrompt": "Connect to 0xdesigner and check that its tools are ready.",
+    "longDescription": "Request design work, follow your briefs and manage credits through your agent. Sign in securely in your browser.",
+    "capabilities": []
+  }
+}

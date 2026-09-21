@@ -1,0 +1,20 @@
+{
+  "name": "0xdesigner",
+  "interface": {
+    "displayName": "0xdesigner"
+  },
+  "plugins": [
+    {
+      "name": "0xdesigner",
+      "source": {
+        "source": "local",
+        "path": "./plugins/0xdesigner"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

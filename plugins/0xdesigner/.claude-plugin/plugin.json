@@ -1,0 +1,9 @@
+{
+  "name": "0xdesigner",
+  "version": "1.0.0",
+  "description": "Give design work to 0xdesigner from your existing conversation.",
+  "author": {
+    "name": "0xdesigner",
+    "url": "https://0xdesigner.com"
+  }
+}

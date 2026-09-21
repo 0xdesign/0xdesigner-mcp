@@ -1,0 +1,13 @@
+{
+  "name": "0xdesigner",
+  "owner": {
+    "name": "0xdesigner"
+  },
+  "plugins": [
+    {
+      "name": "0xdesigner",
+      "source": "./plugins/0xdesigner",
+      "description": "Give design work to 0xdesigner from your existing conversation."
+    }
+  ]
+}
