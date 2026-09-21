@@ -1,6 +1,6 @@
 {
   "name": "0xdesigner",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Give design work to 0xdesigner from your existing conversation.",
   "author": {
     "name": "0xdesigner",
@@ -12,7 +12,7 @@
     "shortDescription": "Give this to 0xdesigner.",
     "developerName": "0xdesigner",
     "category": "Productivity",
-    "defaultPrompt": "Connect to 0xdesigner and check that its tools are ready.",
+    "defaultPrompt": "Use 0xdesigner and check that its tools are ready.",
     "longDescription": "Request design work, follow your briefs and manage credits through your agent. Sign in securely in your browser.",
     "capabilities": [],
     "composerIcon": "./assets/profile.jpg",

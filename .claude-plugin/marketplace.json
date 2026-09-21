@@ -1,5 +1,6 @@
 {
   "name": "0xdesigner",
+  "description": "Connect Claude Code to the 0xdesigner design service.",
   "owner": {
     "name": "0xdesigner"
   },
