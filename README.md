@@ -12,7 +12,7 @@ Add this marketplace:
 codex plugin marketplace add https://github.com/0xdesign/0xdesigner-mcp
 ```
 
-Open **Plugins → 0xdesigner → Install** (or `/plugins` in Codex CLI). Sign in and approve the connection in your browser, then return to the same conversation.
+Open **Plugins → 0xdesigner → Install** (or `/plugins` in Codex CLI). Sign in and approve the connection in your browser, then return to the same conversation. If Codex asks for authentication, run `codex mcp login 0xdesigner --scopes email` to open browser sign-in.
 
 ## Claude Code
 
@@ -22,7 +22,7 @@ In your interactive Claude Code conversation:
 /plugin install 0xdesigner --marketplace 0xdesign/0xdesigner-mcp
 ```
 
-Sign in through your browser. If Claude requests activation, run `/reload-plugins` in the same conversation.
+Open `/mcp`, select `plugin:0xdesigner:0xdesigner`, and choose **Authenticate**. Sign in through your browser. If Claude requests activation, run `/reload-plugins` in the same conversation.
 
 ## Check the connection
 
@@ -37,3 +37,7 @@ Then, while working on a product, say **“Give this to 0xdesigner.”** Your ag
 - Signing in connects to your existing briefs and credits. It does not purchase credits or share your code.
 - Review connections and disconnect agents from [your account](https://0xdesigner.com/vending-machine/account).
 - [How the service works](https://0xdesigner.com/vending-machine) · [Privacy](https://0xdesigner.com/privacy)
+
+## Upgrading an older test connection
+
+A manually configured server named `0xdesigner` can override the plugin. If you are migrating from the old token setup, remove only that old entry with `codex mcp remove 0xdesigner`, then reinstall the plugin through the native Plugins menu. Keep the same chat open. This does not delete your account, briefs or credits. Do not remove unrelated servers or repeat registration to fix missing tools.
