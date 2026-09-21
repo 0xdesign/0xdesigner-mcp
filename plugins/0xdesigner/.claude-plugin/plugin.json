@@ -1,9 +1,34 @@
 {
   "name": "0xdesigner",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Give design work to 0xdesigner from your existing conversation.",
   "author": {
     "name": "0xdesigner",
     "url": "https://0xdesigner.com"
+  },
+  "homepage": "https://0xdesigner.com/vending-machine",
+  "repository": "https://github.com/0xdesign/0xdesigner-mcp",
+  "keywords": [
+    "design",
+    "product-design",
+    "interface-design",
+    "mcp"
+  ],
+  "mcpServers": "./.mcp.json",
+  "displayName": "0xdesigner",
+  "metadata": {
+    "interface": {
+      "displayName": "0xdesigner",
+      "shortDescription": "Give this to 0xdesigner.",
+      "developerName": "0xdesigner",
+      "category": "Productivity",
+      "defaultPrompt": "Connect to 0xdesigner and check that its tools are ready.",
+      "longDescription": "Request design work, follow your briefs and manage credits through your agent. Sign in securely in your browser.",
+      "capabilities": [],
+      "composerIcon": "./assets/profile.jpg",
+      "logo": "./assets/profile.jpg",
+      "logoDark": "./assets/profile.jpg",
+      "websiteURL": "https://0xdesigner.com/vending-machine"
+    }
   }
 }

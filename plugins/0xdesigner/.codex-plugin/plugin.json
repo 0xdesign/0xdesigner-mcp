@@ -1,6 +1,6 @@
 {
   "name": "0xdesigner",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Give design work to 0xdesigner from your existing conversation.",
   "author": {
     "name": "0xdesigner",
@@ -17,6 +17,15 @@
     "capabilities": [],
     "composerIcon": "./assets/profile.jpg",
     "logo": "./assets/profile.jpg",
-    "logoDark": "./assets/profile.jpg"
-  }
+    "logoDark": "./assets/profile.jpg",
+    "websiteURL": "https://0xdesigner.com/vending-machine"
+  },
+  "homepage": "https://0xdesigner.com/vending-machine",
+  "repository": "https://github.com/0xdesign/0xdesigner-mcp",
+  "keywords": [
+    "design",
+    "product-design",
+    "interface-design",
+    "mcp"
+  ]
 }

@@ -41,3 +41,7 @@ Then, while working on a product, say **“Give this to 0xdesigner.”** Your ag
 ## Upgrading an older test connection
 
 A manually configured server named `0xdesigner` can override the plugin. If you are migrating from the old token setup, remove only that old entry with `codex mcp remove 0xdesigner`, then reinstall the plugin through the native Plugins menu. Keep the same chat open. This does not delete your account, briefs or credits. Do not remove unrelated servers or repeat registration to fix missing tools.
+
+## Shared plugin metadata
+
+Both manifests share the same name, version, description, author, website, repository, keywords and MCP configuration. The Codex `interface` branding is mirrored into Claude Code’s supported `metadata.interface` object, including the bundled X profile picture at `assets/profile.jpg`. Claude Code currently ignores custom metadata and has no documented plugin logo display field, so the shared image is packaged but does not appear in its picker. Keep these fields synchronized when publishing a new version.
