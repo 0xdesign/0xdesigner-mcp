@@ -42,7 +42,7 @@ Add the marketplace, then install from the Plugins tab:
 codex plugin marketplace add https://github.com/0xdesign/0xdesigner-mcp
 ```
 
-Open [Install 0xdesigner](codex://plugins/install/0xdesigner?marketplace=0xdesigner) after adding the marketplace, then press **Install**. Sign in through your browser when prompted, then return to the same conversation. Codex may ask once or twice to run outside the sandbox; that is normal. If no sign-in was prompted, choose **Authenticate** under Settings → MCP servers.
+Open **Plugins**, pick the **0xdesigner** marketplace in the source filter (it may sit under Personal), open 0xdesigner and press **Install**. Sign in through your browser when prompted, then return to the same conversation. Codex may ask once or twice to run outside the sandbox; that is normal. If no sign-in was prompted, choose **Authenticate** under Settings → MCP servers.
 
 ## Codex CLI
 
